@@ -22,16 +22,17 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+    - Semantic tagging instead of over-classing
 
 
 (b) CSS features
-
+    - Usage of float to position image
 
 
 (c) Advanced features
-
-
+    - Making sidebar/navigation menu adaptive to resolution, with smaller screens replacing the sidebar with a collapsible menu
+    - Implementation of CSS Flexbox and Grid (without external frameworks)
+    - CSS pseudo-selectors to fine-tune padding/margin (first-child, last-child)
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
@@ -43,8 +44,16 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+    Technical References:
+    - https://paletton.com/
+    - https://www.w3schools.com/howto/howto_js_collapsible.asp
+    - https://www.w3schools.com/css/css3_transitions.asp
+    - https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+    - https://www.w3.org/Style/LieBos3e/em
+    - ...honestly, a LOT of different w3schools pages
 
-
+    Assets:
+    - https://freesvg.org/menu-icon-28851
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 

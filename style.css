@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #FFDDBE;
+}
+
+main {
+    display: block;
+}
+
+.intro {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.intro-text {
+    padding-top: 1em;
+}
+
+.me {
+    float: left;
+    margin-bottom: 1em;
+}
+
+hr {
+    clear: left;
+}
+
+nav {
+    background-color: #E7BB92;
+}
+
+a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 1em;
+    margin: 1em;
+}
+
+a:hover {
+    background-color: rgb(200,200,200);
+}
+
+a:first-child, a:last-child {
+    margin: 0 1em 0
+}
+
+/* articles that are direct children of project box */
+.project-box + article {
+    border-style: solid;
+    border-width: 1px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* for small screens */
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: #CF9967;
+    }
+
+    #menuButton {
+        display: block;
+        width: 2em;
+        height: 1.5em;
+
+        padding: 1em;
+        margin-left: auto;
+        margin-right: 0;
+
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+    }
+
+    main {
+        padding: 0 1em 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #menuButton {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        height: 100%;
+        width: 20%;
+
+        /* fixing position */
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+
+        box-sizing: border-box;
+        padding: 2em 1em;
+        margin-right: 20px;
+
+        /* border */
+        border-width: 1px;
+        border-right-style: solid;
+    }
+
+    main {
+        margin-left: 22%;
+        margin-right: 2%;
+    }
+
+    .intro {
+    }
+}
